@@ -68,21 +68,41 @@ footer{
 #contact{font-size: 90%;
     
 }
-#homehero{
-    background-image: url(images/coast.jpg);
+#wrapper {
+    background-color: #fff;
+    box-shadow: 3px 3px 3px #333;
+    margin: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    width: 80%;
+  }
+  
+  header {
+    background-color: #000032;
+    background-image: url(images/sunset.jpg);
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: 100%,100%;
-    height: 300px;
-}
-#yurthero{
-    background-image: url(images/yurt.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%,100%;
-    height: 300px;
-}
-#hometrail{
-    background-image: url(images/trail.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%,100%;
-    height: 300px;
-}
+    color: #fff;
+    height: 60px;
+    padding-top: 15px;
+    text-align: center;
+  }
+  
+  #homehero{
+      background-image: url(images/coast.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%100%;
+      height: 300px;
+  }
+  #yurthero{
+      background-image: url(images/yurt.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%100%;
+      height: 300px;
+  }
+  #trailhero{
+      background-image: url(images/trail.jpg);
+      background-repeat: no-repeat;
+      background-size: 100 100%;
+      height: 300px;
+  }
